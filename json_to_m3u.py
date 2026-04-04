@@ -64,7 +64,7 @@ with open(INPUT_FILE, "r", encoding="utf-8") as f:
 group = ""
 output = []
 
-output.append('#EXTM3U x-tvg-url="http://192.168.6.15:5678/t.xml.gz"')
+output.append('#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml.gz"')
 
 for line in lines:
     line = line.strip()
