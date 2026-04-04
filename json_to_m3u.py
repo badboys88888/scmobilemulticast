@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
 
 import json
+import re
 
 INPUT_FILE = "channels.txt"
 OUTPUT_FILE = "live.m3u"
 
-# RTP代理
 RTP_PROXY = "http://192.168.8.1:8888/rtp/"
 
-# 台标配置
 ICON_MAP_FILE = "icons_map.json"
 ICON_BASE_URL = "https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/"
 
@@ -19,33 +18,44 @@ try:
 except:
     icon_map = {}
 
-# ===================== 工具函数 ===================== #
+# ===================== 归一化关键（核心） ===================== #
+def norm_name(name):
+    # 去掉 -1 -2 -HD -备用 等
+    name = re.sub(r'[-_ ]?(\\d+)$', '', name)
+    return name.strip()
+
+# ===================== 解析 ===================== #
 def parse_line(line):
     parts = line.strip().split("|")
     if len(parts) != 3:
         return None
     return parts[0].strip(), parts[1].strip(), parts[2].strip()
 
-
+# ===================== URL转换 ===================== #
 def convert_url(url):
     if url.startswith("rtp://"):
         return RTP_PROXY + url.replace("rtp://", "")
     return url
 
-
+# ===================== LOGO匹配（关键修复） ===================== #
 def get_logo(name, tvg_id):
-    key = tvg_id if tvg_id else name
+    # 🔥 优先用“归一化后的 name”
+    key = norm_name(name)
 
+    # 1️⃣ 精确匹配
     if key in icon_map:
         return ICON_BASE_URL + icon_map[key]
 
-    # 忽略大小写兜底
+    # 2️⃣ tvg_id兜底（有些人用英文ID）
+    if tvg_id and tvg_id in icon_map:
+        return ICON_BASE_URL + icon_map[tvg_id]
+
+    # 3️⃣ 忽略大小写
     for k in icon_map:
         if k.lower() == key.lower():
             return ICON_BASE_URL + icon_map[k]
 
     return ""
-
 
 # ===================== 主逻辑 ===================== #
 with open(INPUT_FILE, "r", encoding="utf-8") as f:
@@ -54,8 +64,7 @@ with open(INPUT_FILE, "r", encoding="utf-8") as f:
 group = ""
 output = []
 
-# IPTV头
-output.append('#EXTM3U x-tvg-url="http://epg.112114.xyz/pp.xml"\n')
+output.append('#EXTM3U x-tvg-url="http://epg.112114.xyz/pp.xml"')
 
 for line in lines:
     line = line.strip()
