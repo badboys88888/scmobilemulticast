@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml.gz"
+#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-id="CCTV1" group-title="央视",CCTV1
 http://192.168.8.1:8888/rtp/239.10.0.151:5140
 #EXTINF:-1 tvg-id="CCTV1" group-title="央视",CCTV1
