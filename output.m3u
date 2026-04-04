@@ -1,0 +1,303 @@
+#EXTM3U x-tvg-url="http://epg.112114.xyz/pp.xml"
+#EXTINF:-1 tvg-id="cctv1" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV1-1
+http://192.168.8.1:8888/rtp/239.10.0.151:5140
+#EXTINF:-1 tvg-id="cctv1" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV1-2
+http://192.168.8.1:8888/rtp/239.11.0.65:5140
+#EXTINF:-1 tvg-id="cctv2" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV2
+http://192.168.8.1:8888/rtp/239.11.0.108:5140
+#EXTINF:-1 tvg-id="cctv3" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV3
+http://192.168.8.1:8888/rtp/239.11.0.101:5140
+#EXTINF:-1 tvg-id="cctv4" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV4
+http://192.168.8.1:8888/rtp/239.11.0.109:5140
+#EXTINF:-1 tvg-id="cctv5" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV5
+http://192.168.8.1:8888/rtp/239.11.0.100:5140
+#EXTINF:-1 tvg-id="cctv5+" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV5+
+http://192.168.8.1:8888/rtp/239.11.0.241:5140
+#EXTINF:-1 tvg-id="cctv6" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV6
+http://192.168.8.1:8888/rtp/239.11.0.102:5140
+#EXTINF:-1 tvg-id="cctv7" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV7
+http://192.168.8.1:8888/rtp/239.11.0.110:5140
+#EXTINF:-1 tvg-id="cctv8" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV8
+http://192.168.8.1:8888/rtp/239.11.0.103:5140
+#EXTINF:-1 tvg-id="cctv9" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV9
+http://192.168.8.1:8888/rtp/239.11.0.111:5140
+#EXTINF:-1 tvg-id="cctv10" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV10
+http://192.168.8.1:8888/rtp/239.11.0.112:5140
+#EXTINF:-1 tvg-id="cctv11" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV11
+http://192.168.8.1:8888/rtp/239.11.0.22:5140
+#EXTINF:-1 tvg-id="cctv12" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV12
+http://192.168.8.1:8888/rtp/239.11.0.113:5140
+#EXTINF:-1 tvg-id="cctv13" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV13
+http://192.168.8.1:8888/rtp/239.11.0.24:5140
+#EXTINF:-1 tvg-id="cctv14" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV14
+http://192.168.8.1:8888/rtp/239.11.0.114:5140
+#EXTINF:-1 tvg-id="cctv15" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV15
+http://192.168.8.1:8888/rtp/239.11.0.26:5140
+#EXTINF:-1 tvg-id="cctv16" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV16
+http://192.168.8.1:8888/rtp/239.11.0.67:5140
+#EXTINF:-1 tvg-id="cctv17" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视",CCTV17
+http://192.168.8.1:8888/rtp/239.11.0.107:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="教育",CETV1
+http://192.168.8.1:8888/rtp/239.11.0.139:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="教育",CETV2
+http://192.168.8.1:8888/rtp/239.11.0.246:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="教育",CETV4
+http://192.168.8.1:8888/rtp/239.11.0.248:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="教育",中学生
+http://192.168.8.1:8888/rtp/239.11.0.247:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="国际",CGTN英语
+http://192.168.8.1:8888/rtp/239.11.0.245:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="国际",CGTN西语
+http://192.168.8.1:8888/rtp/239.11.0.79:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="国际",CGTN法语
+http://192.168.8.1:8888/rtp/239.11.0.80:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="国际",CGTN阿语
+http://192.168.8.1:8888/rtp/239.11.0.81:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="国际",CGTN俄语
+http://192.168.8.1:8888/rtp/239.11.0.82:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="国际",CGTN纪录
+http://192.168.8.1:8888/rtp/239.11.0.138:5140
+#EXTINF:-1 tvg-id="cctv4k" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视4K",CCTV4K-1
+http://192.168.8.1:8888/rtp/239.11.0.62:5140
+#EXTINF:-1 tvg-id="cctv4k" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视4K",CCTV4K-2
+http://192.168.8.1:8888/rtp/239.11.0.61:5140
+#EXTINF:-1 tvg-id="cctv16" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视4K",CCTV16-4K
+http://192.168.8.1:8888/rtp/239.10.0.187:5140
+#EXTINF:-1 tvg-id="cctv8k" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="央视4K",CCTV8K
+http://192.168.8.1:8888/rtp/239.10.0.134:5140
+#EXTINF:-1 tvg-id="北京4khd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/北京卫视4k.jpg" group-title="卫视4K",北京卫视4K-1
+http://192.168.8.1:8888/rtp/239.10.0.91:5140
+#EXTINF:-1 tvg-id="北京4khd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/北京卫视4k.jpg" group-title="卫视4K",北京卫视4K-2
+http://192.168.8.1:8888/rtp/239.10.0.92:5140
+#EXTINF:-1 tvg-id="深圳4khd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视4K",深圳卫视4K
+http://192.168.8.1:8888/rtp/239.10.0.93:5140
+#EXTINF:-1 tvg-id="广东4khd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视4K",广东卫视4K
+http://192.168.8.1:8888/rtp/239.10.0.94:5140
+#EXTINF:-1 tvg-id="四川4khd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/四川卫视4k.png" group-title="卫视4K",四川卫视4K-1
+http://192.168.8.1:8888/rtp/239.11.0.43:5140
+#EXTINF:-1 tvg-id="四川4khd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/四川卫视4k.png" group-title="卫视4K",四川卫视4K-2
+http://192.168.8.1:8888/rtp/239.11.0.86:5140
+#EXTINF:-1 tvg-id="东方4khd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视4K",东方卫视4K
+http://192.168.8.1:8888/rtp/239.11.0.90:5140
+#EXTINF:-1 tvg-id="浙江4khd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视4K",浙江卫视4K
+http://192.168.8.1:8888/rtp/239.11.0.89:5140
+#EXTINF:-1 tvg-id="江苏4khd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视4K",江苏卫视4K
+http://192.168.8.1:8888/rtp/239.11.0.88:5140
+#EXTINF:-1 tvg-id="湖南4khd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视4K",湖南卫视4K
+http://192.168.8.1:8888/rtp/239.11.0.87:5140
+#EXTINF:-1 tvg-id="山东4khd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视4K",山东卫视4K
+http://192.168.8.1:8888/rtp/239.11.0.91:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视4K",爱上4K
+http://192.168.8.1:8888/rtp/239.11.0.120:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视4K",咪咕4K
+http://192.168.8.1:8888/rtp/239.10.0.240:5140
+#EXTINF:-1 tvg-id="北京hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",北京卫视
+http://192.168.8.1:8888/rtp/239.11.0.121:5140
+#EXTINF:-1 tvg-id="河北hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",河北卫视
+http://192.168.8.1:8888/rtp/239.11.0.31:5140
+#EXTINF:-1 tvg-id="东方hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",东方卫视
+http://192.168.8.1:8888/rtp/239.11.0.68:5140
+#EXTINF:-1 tvg-id="湖南hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",湖南卫视
+http://192.168.8.1:8888/rtp/239.11.0.119:5140
+#EXTINF:-1 tvg-id="黑龙江hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",黑龙江卫视
+http://192.168.8.1:8888/rtp/239.11.0.36:5140
+#EXTINF:-1 tvg-id="吉林hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",吉林卫视
+http://192.168.8.1:8888/rtp/239.11.0.35:5140
+#EXTINF:-1 tvg-id="江西hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",江西卫视
+http://192.168.8.1:8888/rtp/239.11.0.42:5140
+#EXTINF:-1 tvg-id="东南hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",东南卫视
+http://192.168.8.1:8888/rtp/239.11.0.41:5140
+#EXTINF:-1 tvg-id="河南hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",河南卫视
+http://192.168.8.1:8888/rtp/239.11.0.44:5140
+#EXTINF:-1 tvg-id="浙江hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",浙江卫视
+http://192.168.8.1:8888/rtp/239.11.0.70:5140
+#EXTINF:-1 tvg-id="深圳hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",深圳卫视
+http://192.168.8.1:8888/rtp/239.11.0.71:5140
+#EXTINF:-1 tvg-id="山东hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",山东卫视
+http://192.168.8.1:8888/rtp/239.11.0.73:5140
+#EXTINF:-1 tvg-id="湖北hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",湖北卫视
+http://192.168.8.1:8888/rtp/239.11.0.74:5140
+#EXTINF:-1 tvg-id="江苏hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",江苏卫视
+http://192.168.8.1:8888/rtp/239.11.0.76:5140
+#EXTINF:-1 tvg-id="四川hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",四川卫视
+http://192.168.8.1:8888/rtp/239.11.0.78:5140
+#EXTINF:-1 tvg-id="广东hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",广东卫视
+http://192.168.8.1:8888/rtp/239.11.0.115:5140
+#EXTINF:-1 tvg-id="广西hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",广西卫视
+http://192.168.8.1:8888/rtp/239.11.0.48:5140
+#EXTINF:-1 tvg-id="贵州hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",贵州卫视
+http://192.168.8.1:8888/rtp/239.11.0.51:5140
+#EXTINF:-1 tvg-id="甘肃hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",甘肃卫视
+http://192.168.8.1:8888/rtp/239.11.0.55:5140
+#EXTINF:-1 tvg-id="重庆hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",重庆卫视
+http://192.168.8.1:8888/rtp/239.11.0.116:5140
+#EXTINF:-1 tvg-id="安徽hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",安徽卫视
+http://192.168.8.1:8888/rtp/239.11.0.117:5140
+#EXTINF:-1 tvg-id="辽宁hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",辽宁卫视
+http://192.168.8.1:8888/rtp/239.11.0.118:5140
+#EXTINF:-1 tvg-id="天津hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",天津卫视
+http://192.168.8.1:8888/rtp/239.11.0.123:5140
+#EXTINF:-1 tvg-id="山西hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",山西卫视
+http://192.168.8.1:8888/rtp/239.11.0.32:5140
+#EXTINF:-1 tvg-id="云南hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",云南卫视
+http://192.168.8.1:8888/rtp/239.11.0.52:5140
+#EXTINF:-1 tvg-id="西藏hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",西藏卫视
+http://192.168.8.1:8888/rtp/239.11.0.53:5140
+#EXTINF:-1 tvg-id="陕西hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",陕西卫视
+http://192.168.8.1:8888/rtp/239.11.0.54:5140
+#EXTINF:-1 tvg-id="青海hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",青海卫视
+http://192.168.8.1:8888/rtp/239.11.0.56:5140
+#EXTINF:-1 tvg-id="宁夏hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",宁夏卫视
+http://192.168.8.1:8888/rtp/239.11.0.57:5140
+#EXTINF:-1 tvg-id="新疆hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",新疆卫视
+http://192.168.8.1:8888/rtp/239.11.0.58:5140
+#EXTINF:-1 tvg-id="内蒙古hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",内蒙古卫视
+http://192.168.8.1:8888/rtp/239.11.0.33:5140
+#EXTINF:-1 tvg-id="兵团hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",兵团卫视
+http://192.168.8.1:8888/rtp/239.11.0.204:5140
+#EXTINF:-1 tvg-id="延边hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",延边卫视
+http://192.168.8.1:8888/rtp/239.11.0.206:5140
+#EXTINF:-1 tvg-id="海南hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",海南卫视
+http://192.168.8.1:8888/rtp/239.11.0.193:5140
+#EXTINF:-1 tvg-id="厦门hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",厦门卫视
+http://192.168.8.1:8888/rtp/239.11.0.83:5140
+#EXTINF:-1 tvg-id="三沙hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="卫视",三沙卫视
+http://192.168.8.1:8888/rtp/239.11.0.84:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="电影",CHC家庭影院
+http://192.168.8.1:8888/rtp/239.10.0.86:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="电影",CHC动作电影
+http://192.168.8.1:8888/rtp/239.10.0.87:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="电影",CHC影迷电影
+http://192.168.8.1:8888/rtp/239.10.0.88:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="电影",峨眉电影
+http://192.168.8.1:8888/rtp/239.11.0.11:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="少儿",金鹰卡通
+http://192.168.8.1:8888/rtp/239.11.0.127:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="少儿",卡酷少儿
+http://192.168.8.1:8888/rtp/239.11.0.129:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="少儿",嘉佳卡通
+http://192.168.8.1:8888/rtp/239.11.0.203:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="少儿",优漫卡通
+http://192.168.8.1:8888/rtp/239.11.0.63:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="少儿",哈哈炫动
+http://192.168.8.1:8888/rtp/239.11.0.64:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="港台",凤凰中文
+http://192.168.8.1:8888/rtp/239.11.0.153:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="港台",凤凰资讯
+http://192.168.8.1:8888/rtp/239.11.0.154:5140
+#EXTINF:-1 tvg-id="星空hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="港台",星空卫视
+http://192.168.8.1:8888/rtp/239.11.0.156:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="港台",ChannelV
+http://192.168.8.1:8888/rtp/239.11.0.155:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="地方（四川）",四川新闻
+http://192.168.8.1:8888/rtp/239.11.0.5:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="地方（四川）",四川影视文艺
+http://192.168.8.1:8888/rtp/239.11.0.77:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="地方（四川）",四川经济
+http://192.168.8.1:8888/rtp/239.11.0.2:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="地方（四川）",四川文化旅游
+http://192.168.8.1:8888/rtp/239.11.0.3:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="地方（四川）",四川乡村
+http://192.168.8.1:8888/rtp/239.11.0.4:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="地方（四川）",四川妇女儿童
+http://192.168.8.1:8888/rtp/239.11.0.8:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="地方（四川）",四川科教
+http://192.168.8.1:8888/rtp/239.11.0.194:5140
+#EXTINF:-1 tvg-id="康巴hd" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="地方（四川）",康巴卫视
+http://192.168.8.1:8888/rtp/239.11.0.10:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/四川星空购物.webp" group-title="地方（四川）",四川星空购物
+http://192.168.8.1:8888/rtp/239.11.0.125:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="成都",成都新闻综合
+http://192.168.8.1:8888/rtp/239.10.0.11:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="成都",成都经济资讯
+http://192.168.8.1:8888/rtp/239.10.0.12:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="成都",成都都市生活
+http://192.168.8.1:8888/rtp/239.10.0.13:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="成都",成都影视文艺
+http://192.168.8.1:8888/rtp/239.10.0.14:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="成都",成都公共
+http://192.168.8.1:8888/rtp/239.10.0.15:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="成都",成都少儿
+http://192.168.8.1:8888/rtp/239.10.0.16:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="成都",成都购物
+http://192.168.8.1:8888/rtp/239.10.0.33:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="达州",达州新闻
+http://192.168.8.1:8888/rtp/239.10.0.54:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="达州",达州文化生活
+http://192.168.8.1:8888/rtp/239.10.0.55:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="泸州",泸州新闻
+http://192.168.8.1:8888/rtp/239.10.0.46:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="泸州",泸州科教
+http://192.168.8.1:8888/rtp/239.10.0.48:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="阿坝",阿坝汉语
+http://192.168.8.1:8888/rtp/239.10.0.50:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="阿坝",阿坝藏语
+http://192.168.8.1:8888/rtp/239.10.0.51:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="巴中",巴中综合
+http://192.168.8.1:8888/rtp/239.10.0.52:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="巴中",巴中文旅
+http://192.168.8.1:8888/rtp/239.10.0.53:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="德阳",德阳新闻综合
+http://192.168.8.1:8888/rtp/239.10.0.56:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="德阳",德阳文旅科教
+http://192.168.8.1:8888/rtp/239.10.0.57:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="广安",广安新闻
+http://192.168.8.1:8888/rtp/239.10.0.58:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="广安",广安公共
+http://192.168.8.1:8888/rtp/239.10.0.59:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="广元",广元综合
+http://192.168.8.1:8888/rtp/239.10.0.60:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="广元",广元文化
+http://192.168.8.1:8888/rtp/239.10.0.61:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="乐山",乐山新闻
+http://192.168.8.1:8888/rtp/239.10.0.62:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="乐山",乐山文旅
+http://192.168.8.1:8888/rtp/239.10.0.63:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="凉山",凉山新闻综合
+http://192.168.8.1:8888/rtp/239.10.0.64:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="凉山",凉山彝语综合
+http://192.168.8.1:8888/rtp/239.10.0.65:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="眉山",眉山综合
+http://192.168.8.1:8888/rtp/239.10.0.66:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="眉山",眉山公共
+http://192.168.8.1:8888/rtp/239.10.0.67:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="南充",南充综合
+http://192.168.8.1:8888/rtp/239.10.0.68:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="南充",南充科教
+http://192.168.8.1:8888/rtp/239.10.0.70:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="内江",内江综合
+http://192.168.8.1:8888/rtp/239.10.0.71:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="内江",内江科教
+http://192.168.8.1:8888/rtp/239.10.0.73:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="攀枝花",攀枝花新闻
+http://192.168.8.1:8888/rtp/239.10.0.74:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="攀枝花",攀枝花文旅
+http://192.168.8.1:8888/rtp/239.10.0.75:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="遂宁",遂宁综合
+http://192.168.8.1:8888/rtp/239.10.0.76:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="遂宁",遂宁文旅
+http://192.168.8.1:8888/rtp/239.10.0.77:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="雅安",雅安新闻
+http://192.168.8.1:8888/rtp/239.10.0.78:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="雅安",雅安公共
+http://192.168.8.1:8888/rtp/239.10.0.79:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="宜宾",宜宾新闻
+http://192.168.8.1:8888/rtp/239.10.0.80:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="宜宾",宜宾公共
+http://192.168.8.1:8888/rtp/239.10.0.81:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="资阳",资阳新闻
+http://192.168.8.1:8888/rtp/239.10.0.82:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="自贡",自贡综合
+http://192.168.8.1:8888/rtp/239.10.0.83:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="自贡",自贡文化
+http://192.168.8.1:8888/rtp/239.10.0.84:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="绵阳",绵阳新闻
+http://192.168.8.1:8888/rtp/239.10.0.96:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="绵阳",绵阳科技
+http://192.168.8.1:8888/rtp/239.10.0.98:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="甘孜",康定综合
+http://192.168.8.1:8888/rtp/239.10.0.30:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="甘孜",甘孜综合
+http://192.168.8.1:8888/rtp/239.10.0.32:5140
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/" group-title="甘孜",稻城电视台
+http://192.168.8.1:8888/rtp/239.10.0.29:5140
