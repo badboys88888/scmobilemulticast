@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="http://192.168.6.15:5678/t.xml.gz"
+#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml.gz"
 #EXTINF:-1 tvg-id="CCTV1" group-title="央视",CCTV1
 http://192.168.8.1:8888/rtp/239.10.0.151:5140
 #EXTINF:-1 tvg-id="CCTV1" group-title="央视",CCTV1
@@ -191,7 +191,7 @@ http://192.168.8.1:8888/rtp/239.11.0.156:5140
 http://192.168.8.1:8888/rtp/239.11.0.155:5140
 #EXTINF:-1 tvg-id="1355" group-title="地方（四川）",四川新闻
 http://192.168.8.1:8888/rtp/239.11.0.5:5140
-#EXTINF:-1 tvg-id="1356" group-title="地方（四川）",四川影视文艺频道
+#EXTINF:-1 tvg-id="1356" group-title="地方（四川）",四川影视文艺
 http://192.168.8.1:8888/rtp/239.11.0.77:5140
 #EXTINF:-1 tvg-id="1354" group-title="地方（四川）",四川经济
 http://192.168.8.1:8888/rtp/239.11.0.2:5140
@@ -207,17 +207,17 @@ http://192.168.8.1:8888/rtp/239.11.0.194:5140
 http://192.168.8.1:8888/rtp/239.11.0.10:5140
 #EXTINF:-1 tvg-id="四川星空购物" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/四川星空购物.webp" group-title="地方（四川）",四川星空购物
 http://192.168.8.1:8888/rtp/239.11.0.125:5140
-#EXTINF:-1 tvg-id="1363" group-title="成都",成都新闻综合频道
+#EXTINF:-1 tvg-id="1363" group-title="成都",成都新闻综合
 http://192.168.8.1:8888/rtp/239.10.0.11:5140
-#EXTINF:-1 tvg-id="1364" group-title="成都",成都经济资讯频道
+#EXTINF:-1 tvg-id="1364" group-title="成都",成都经济资讯
 http://192.168.8.1:8888/rtp/239.10.0.12:5140
-#EXTINF:-1 tvg-id="1365" group-title="成都",成都都市生活频道
+#EXTINF:-1 tvg-id="1365" group-title="成都",成都都市生活
 http://192.168.8.1:8888/rtp/239.10.0.13:5140
-#EXTINF:-1 tvg-id="1366" group-title="成都",成都影视文艺频道
+#EXTINF:-1 tvg-id="1366" group-title="成都",成都影视文艺
 http://192.168.8.1:8888/rtp/239.10.0.14:5140
-#EXTINF:-1 tvg-id="1367" group-title="成都",成都公共频道
+#EXTINF:-1 tvg-id="1367" group-title="成都",成都公共
 http://192.168.8.1:8888/rtp/239.10.0.15:5140
-#EXTINF:-1 tvg-id="1368" group-title="成都",成都少儿频道
+#EXTINF:-1 tvg-id="1368" group-title="成都",成都少儿
 http://192.168.8.1:8888/rtp/239.10.0.16:5140
 #EXTINF:-1 tvg-id="成都购物" group-title="成都",成都购物
 http://192.168.8.1:8888/rtp/239.10.0.33:5140
