@@ -1,73 +1,102 @@
+# -*- coding: utf-8 -*-
+
 import json
 
-INPUT_JSON = "channels.json"
-OUTPUT_M3U = "live.m3u"
-ICON_MAP = "icons_map.json"
+INPUT_FILE = "channels.txt"
+OUTPUT_FILE = "live.m3u"
 
-BASE_PROXY = "http://192.168.8.1:8888/rtp/"
-BASE_ICON_URL = "https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/"
+# RTP代理
+RTP_PROXY = "http://192.168.8.1:8888/rtp/"
 
-# ===================== 读取 logo ===================== #
+# 台标配置
+ICON_MAP_FILE = "icons_map.json"
+ICON_BASE_URL = "https://raw.githubusercontent.com/yourrepo/logos/main/"
+
+# ===================== 读取台标 ===================== #
 try:
-    with open(ICON_MAP, "r", encoding="utf-8") as f:
-        icons = json.load(f)
+    with open(ICON_MAP_FILE, "r", encoding="utf-8") as f:
+        icon_map = json.load(f)
 except:
-    icons = {}
+    icon_map = {}
 
 # ===================== 工具函数 ===================== #
-def clean_name(name):
-    # 用于匹配 logo（只做基础清洗，不改逻辑）
-    return name.split("-")[0].replace(" ", "")
+def parse_line(line):
+    parts = line.strip().split("|")
+    if len(parts) != 3:
+        return None
+    return parts[0].strip(), parts[1].strip(), parts[2].strip()
 
-def get_logo(name):
-    base = clean_name(name)
-    file = icons.get(base, "")
-
-    if not file:
-        return ""   # 没有就不输出
-
-    return BASE_ICON_URL + file
 
 def convert_url(url):
-    # RTP → HTTP代理
     if url.startswith("rtp://"):
-        return BASE_PROXY + url.replace("rtp://", "")
+        return RTP_PROXY + url.replace("rtp://", "")
     return url
 
-# ===================== 主程序 ===================== #
-with open(INPUT_JSON, "r", encoding="utf-8") as f:
-    data = json.load(f)
 
-with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
-    f.write('#EXTM3U x-tvg-url="http://epg.112114.xyz/pp.xml"\n')
+def get_logo(name, tvg_id):
+    key = tvg_id if tvg_id else name
 
-    for ch in data:
-        name = ch.get("name", "")
-        url = ch.get("url", "")
-        group = ch.get("group", "")
-        tvg_id = ch.get("tvg_id", "")   # ✔ 关键：完全不改你
+    if key in icon_map:
+        return ICON_BASE_URL + icon_map[key]
 
-        if not name or not url:
-            continue
+    # 忽略大小写兜底
+    for k in icon_map:
+        if k.lower() == key.lower():
+            return ICON_BASE_URL + icon_map[k]
 
-        play_url = convert_url(url)
-        logo = get_logo(name)
+    return ""
 
-        # ================= EXTINF ================= #
-        extinf = f'#EXTINF:-1'
 
-        if tvg_id:
-            extinf += f' tvg-id="{tvg_id}"'
+# ===================== 主逻辑 ===================== #
+with open(INPUT_FILE, "r", encoding="utf-8") as f:
+    lines = f.readlines()
 
-        if logo:
-            extinf += f' tvg-logo="{logo}"'
+group = ""
+output = []
 
-        if group:
-            extinf += f' group-title="{group}"'
+# IPTV头
+output.append('#EXTM3U x-tvg-url="http://epg.112114.xyz/pp.xml"\n')
 
-        extinf += f',{name}'
+for line in lines:
+    line = line.strip()
 
-        f.write(extinf + "\n")
-        f.write(play_url + "\n")
+    if not line:
+        continue
 
-print("✅ live.m3u 生成完成")
+    # ========= 分组 ========= #
+    if line.startswith("#genre#"):
+        group = line.replace("#genre#", "").strip()
+        continue
+
+    # ========= 频道 ========= #
+    parsed = parse_line(line)
+    if not parsed:
+        continue
+
+    name, url, tvg_id = parsed
+    url = convert_url(url)
+
+    logo = get_logo(name, tvg_id)
+
+    # ========= EXTINF ========= #
+    extinf = "#EXTINF:-1"
+
+    if tvg_id:
+        extinf += f' tvg-id="{tvg_id}"'
+
+    if logo:
+        extinf += f' tvg-logo="{logo}"'
+
+    if group:
+        extinf += f' group-title="{group}"'
+
+    extinf += f",{name}"
+
+    output.append(extinf)
+    output.append(url)
+
+# ===================== 写文件 ===================== #
+with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    f.write("\n".join(output))
+
+print("✅ M3U生成完成 ->", OUTPUT_FILE)
