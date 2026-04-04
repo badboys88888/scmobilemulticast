@@ -18,10 +18,10 @@ try:
 except:
     icon_map = {}
 
-# ===================== 归一化关键（核心） ===================== #
+# ===================== 归一化（核心修复） ===================== #
 def norm_name(name):
-    # 去掉 -1 -2 -HD -备用 等
-    name = re.sub(r'[-_ ]?(\\d+)$', '', name)
+    # 去掉 -1 -2 -HD -备用 -数字后缀
+    name = re.sub(r'[-_ ]?\d+$', '', name)
     return name.strip()
 
 # ===================== 解析 ===================== #
@@ -37,20 +37,19 @@ def convert_url(url):
         return RTP_PROXY + url.replace("rtp://", "")
     return url
 
-# ===================== LOGO匹配（关键修复） ===================== #
+# ===================== LOGO匹配 ===================== #
 def get_logo(name, tvg_id):
-    # 🔥 优先用“归一化后的 name”
     key = norm_name(name)
 
     # 1️⃣ 精确匹配
     if key in icon_map:
         return ICON_BASE_URL + icon_map[key]
 
-    # 2️⃣ tvg_id兜底（有些人用英文ID）
+    # 2️⃣ tvg_id匹配
     if tvg_id and tvg_id in icon_map:
         return ICON_BASE_URL + icon_map[tvg_id]
 
-    # 3️⃣ 忽略大小写
+    # 3️⃣ 忽略大小写匹配
     for k in icon_map:
         if k.lower() == key.lower():
             return ICON_BASE_URL + icon_map[k]
@@ -64,6 +63,7 @@ with open(INPUT_FILE, "r", encoding="utf-8") as f:
 group = ""
 output = []
 
+# 🔥 标准EPG写法（建议保留）
 output.append('#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"')
 
 for line in lines:
@@ -87,11 +87,17 @@ for line in lines:
 
     logo = get_logo(name, tvg_id)
 
+    # ========= 清洗名称 ========= #
+    clean_name = norm_name(name)
+
     # ========= EXTINF ========= #
     extinf = "#EXTINF:-1"
 
     if tvg_id:
         extinf += f' tvg-id="{tvg_id}"'
+
+    # 🔥 新增：tvg-name（标准关键）
+    extinf += f' tvg-name="{clean_name}"'
 
     if logo:
         extinf += f' tvg-logo="{logo}"'
@@ -99,6 +105,7 @@ for line in lines:
     if group:
         extinf += f' group-title="{group}"'
 
+    # 显示名（保留原始，带-1 -2）
     extinf += f",{name}"
 
     output.append(extinf)
