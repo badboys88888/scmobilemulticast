@@ -2,7 +2,7 @@ name: IPTV Auto Build
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # 每6小时跑一次
+    - cron: "0 0 * * 1"  # 每周一
   workflow_dispatch:
 
 permissions:
