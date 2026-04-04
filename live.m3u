@@ -173,7 +173,7 @@ http://192.168.8.1:8888/rtp/239.10.0.88:5140
 http://192.168.8.1:8888/rtp/239.11.0.11:5140
 #EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" group-title="少儿",金鹰卡通
 http://192.168.8.1:8888/rtp/239.11.0.127:5140
-#EXTINF:-1 tvg-id="https://xxx.com/logo/kids.webp" tvg-name="卡酷少儿" group-title="少儿",卡酷少儿
+#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" group-title="少儿",卡酷少儿
 http://192.168.8.1:8888/rtp/239.11.0.129:5140
 #EXTINF:-1 tvg-id="卡酷少儿" tvg-name="嘉佳卡通" group-title="少儿",嘉佳卡通
 http://192.168.8.1:8888/rtp/239.11.0.203:5140
