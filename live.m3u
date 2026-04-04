@@ -1,8 +1,8 @@
 #EXTM3U x-tvg-url="http://epg.112114.xyz/pp.xml"
 
-#EXTINF:-1 tvg-id="CCTV1" group-title="央视",CCTV1-1
+#EXTINF:-1 tvg-id="CCTV1" group-title="央视",CCTV1
 http://192.168.8.1:8888/rtp/239.10.0.151:5140
-#EXTINF:-1 tvg-id="CCTV1" group-title="央视",CCTV1-2
+#EXTINF:-1 tvg-id="CCTV1" group-title="央视",CCTV1
 http://192.168.8.1:8888/rtp/239.11.0.65:5140
 #EXTINF:-1 tvg-id="CCTV2" group-title="央视",CCTV2
 http://192.168.8.1:8888/rtp/239.11.0.108:5140
@@ -58,25 +58,25 @@ http://192.168.8.1:8888/rtp/239.11.0.81:5140
 http://192.168.8.1:8888/rtp/239.11.0.82:5140
 #EXTINF:-1 tvg-id="CGTN纪录" group-title="国际",CGTN纪录
 http://192.168.8.1:8888/rtp/239.11.0.138:5140
-#EXTINF:-1 tvg-id="CCTV4K" group-title="央视4K",CCTV4K-1
+#EXTINF:-1 tvg-id="CCTV4K" group-title="央视4K",CCTV4K
 http://192.168.8.1:8888/rtp/239.11.0.62:5140
-#EXTINF:-1 tvg-id="CCTV4K" group-title="央视4K",CCTV4K-2
+#EXTINF:-1 tvg-id="CCTV4K" group-title="央视4K",CCTV4K
 http://192.168.8.1:8888/rtp/239.11.0.61:5140
 #EXTINF:-1 tvg-id="CCTV16" group-title="央视4K",CCTV16-4K
 http://192.168.8.1:8888/rtp/239.10.0.187:5140
 #EXTINF:-1 tvg-id="CCTV8K" group-title="央视4K",CCTV8K
 http://192.168.8.1:8888/rtp/239.10.0.134:5140
-#EXTINF:-1 tvg-id="北京卫视" group-title="卫视4K",北京卫视4K-1
+#EXTINF:-1 tvg-id="北京卫视" group-title="卫视4K",北京卫视4K
 http://192.168.8.1:8888/rtp/239.10.0.91:5140
-#EXTINF:-1 tvg-id="北京卫视" group-title="卫视4K",北京卫视4K-2
+#EXTINF:-1 tvg-id="北京卫视" group-title="卫视4K",北京卫视4K
 http://192.168.8.1:8888/rtp/239.10.0.92:5140
 #EXTINF:-1 tvg-id="深圳卫视" group-title="卫视4K",深圳卫视4K
 http://192.168.8.1:8888/rtp/239.10.0.93:5140
 #EXTINF:-1 tvg-id="广东卫视" group-title="卫视4K",广东卫视4K
 http://192.168.8.1:8888/rtp/239.10.0.94:5140
-#EXTINF:-1 tvg-id="四川卫视" group-title="卫视4K",四川卫视4K-1
+#EXTINF:-1 tvg-id="四川卫视" group-title="卫视4K",四川卫视4K
 http://192.168.8.1:8888/rtp/239.11.0.43:5140
-#EXTINF:-1 tvg-id="四川卫视" group-title="卫视4K",四川卫视4K-2
+#EXTINF:-1 tvg-id="四川卫视" group-title="卫视4K",四川卫视4K
 http://192.168.8.1:8888/rtp/239.11.0.86:5140
 #EXTINF:-1 tvg-id="东方卫视" group-title="卫视4K",东方卫视4K
 http://192.168.8.1:8888/rtp/239.11.0.90:5140
