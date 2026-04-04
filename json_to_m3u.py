@@ -16,6 +16,7 @@ except:
 
 # ===================== 工具函数 ===================== #
 def clean_name(name):
+    # 用于匹配 logo（只做基础清洗，不改逻辑）
     return name.split("-")[0].replace(" ", "")
 
 def get_logo(name):
@@ -23,25 +24,12 @@ def get_logo(name):
     file = icons.get(base, "")
 
     if not file:
-        return ""   # ❌ 没有就返回空
+        return ""   # 没有就不输出
 
     return BASE_ICON_URL + file
 
-def get_tvg_id(name, manual=""):
-    base = clean_name(name).lower()
-
-    if manual:
-        return manual
-
-    if "cctv" in base:
-        return base
-
-    if "卫视" in name:
-        return base.replace("卫视", "") + "hd"
-
-    return ""
-
 def convert_url(url):
+    # RTP → HTTP代理
     if url.startswith("rtp://"):
         return BASE_PROXY + url.replace("rtp://", "")
     return url
@@ -57,20 +45,21 @@ with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
         name = ch.get("name", "")
         url = ch.get("url", "")
         group = ch.get("group", "")
-        tvg_manual = ch.get("tvg_id", "")
+        tvg_id = ch.get("tvg_id", "")   # ✔ 关键：完全不改你
 
-        # ❌ 跳过空数据
         if not name or not url:
             continue
 
         play_url = convert_url(url)
-        tvg_id = get_tvg_id(name, tvg_manual)
         logo = get_logo(name)
 
-        # ===== 关键：动态拼 EXTINF ===== #
-        extinf = f'#EXTINF:-1 tvg-id="{tvg_id}"'
+        # ================= EXTINF ================= #
+        extinf = f'#EXTINF:-1'
 
-        if logo:   # ✔ 只有有logo才写
+        if tvg_id:
+            extinf += f' tvg-id="{tvg_id}"'
+
+        if logo:
             extinf += f' tvg-logo="{logo}"'
 
         if group:
