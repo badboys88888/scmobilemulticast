@@ -10,7 +10,7 @@ RTP_PROXY = "http://192.168.8.1:8888/rtp/"
 
 # 台标配置
 ICON_MAP_FILE = "icons_map.json"
-ICON_BASE_URL = "https://raw.githubusercontent.com/scmobilemulticast/icons/main/"
+ICON_BASE_URL = "https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/"
 
 # ===================== 读取台标 ===================== #
 try:
