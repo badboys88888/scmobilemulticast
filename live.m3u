@@ -63,7 +63,7 @@ http://192.168.8.1:8888/rtp/239.11.0.62:5140
 http://192.168.8.1:8888/rtp/239.11.0.61:5140
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16-4K" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV16.png" group-title="央视4K",CCTV16-4K
 http://192.168.8.1:8888/rtp/239.10.0.187:5140
-#EXTINF:-1 tvg-id="CCTV8K" tvg-name="CCTV8K" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV8K.webp" group-title="央视4K",CCTV8K
+#EXTINF:-1 tvg-id="CCTV8K" tvg-name="CCTV8K" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV8K.png" group-title="央视4K",CCTV8K
 http://192.168.8.1:8888/rtp/239.10.0.134:5140
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视4K" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/北京卫视4K.png" group-title="卫视4K",北京卫视4K
 http://192.168.8.1:8888/rtp/239.10.0.91:5140
@@ -115,6 +115,8 @@ http://192.168.8.1:8888/rtp/239.11.0.70:5140
 http://192.168.8.1:8888/rtp/239.11.0.71:5140
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/山东卫视.png" group-title="卫视",山东卫视
 http://192.168.8.1:8888/rtp/239.11.0.73:5140
+#EXTINF:-1 tvg-id="山东教育卫视" tvg-name="山东教育卫视" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/山东教育卫视.png" group-title="卫视",山东教育卫视
+http://192.168.8.1:8888/rtp/239.11.0.140:5140
 #EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/湖北卫视.png" group-title="卫视",湖北卫视
 http://192.168.8.1:8888/rtp/239.11.0.74:5140
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/江苏卫视.png" group-title="卫视",江苏卫视
@@ -163,6 +165,8 @@ http://192.168.8.1:8888/rtp/239.11.0.193:5140
 http://192.168.8.1:8888/rtp/239.11.0.83:5140
 #EXTINF:-1 tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/三沙卫视.png" group-title="卫视",三沙卫视
 http://192.168.8.1:8888/rtp/239.11.0.84:5140
+#EXTINF:-1 tvg-id="中国交通" tvg-name="中国交通" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/中国交通.png" group-title="卫视",中国交通
+http://192.168.8.1:8888/rtp/239.10.0.143:5140
 #EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CHC家庭影院.png" group-title="电影",CHC家庭影院
 http://192.168.8.1:8888/rtp/239.10.0.86:5140
 #EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CHC动作电影.png" group-title="电影",CHC动作电影
@@ -181,6 +185,10 @@ http://192.168.8.1:8888/rtp/239.11.0.203:5140
 http://192.168.8.1:8888/rtp/239.11.0.63:5140
 #EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/哈哈炫动.png" group-title="少儿",哈哈炫动
 http://192.168.8.1:8888/rtp/239.11.0.64:5140
+#EXTINF:-1 tvg-id="新动漫" tvg-name="新动漫" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/新动漫.png" group-title="少儿",新动漫-1
+http://192.168.8.1:8888/rtp/239.10.0.159:5140
+#EXTINF:-1 tvg-id="新动漫" tvg-name="新动漫" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/新动漫.png" group-title="少儿",新动漫-2
+http://192.168.8.1:8888/rtp/239.10.0.089:5140
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/凤凰中文.png" group-title="港台",凤凰中文
 http://192.168.8.1:8888/rtp/239.11.0.153:5140
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/凤凰资讯.png" group-title="港台",凤凰资讯
@@ -221,7 +229,19 @@ http://192.168.8.1:8888/rtp/239.10.0.15:5140
 http://192.168.8.1:8888/rtp/239.10.0.16:5140
 #EXTINF:-1 tvg-id="成都购物" tvg-name="成都购物" group-title="成都",成都购物
 http://192.168.8.1:8888/rtp/239.10.0.33:5140
-#EXTINF:-1 tvg-id="达州新闻" tvg-name="达州新闻" group-title="达州",达州新闻
+#EXTINF:-1 tvg-id="睛彩广场舞" tvg-name="睛彩广场舞" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/睛彩广场舞.png" group-title="网络",睛彩广场舞
+http://192.168.8.1:8888/rtp/239.10.0.131:5140
+#EXTINF:-1 tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/睛彩竞技.png" group-title="网络",睛彩竞技
+http://192.168.8.1:8888/rtp/239.10.0.224:5140
+#EXTINF:-1 tvg-id="睛彩竞技" tvg-name="睛彩篮球" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/睛彩篮球.png" group-title="网络",睛彩篮球
+http://192.168.8.1:8888/rtp/239.11.0.122:5140
+#EXTINF:-1 tvg-id="睛彩竞技" tvg-name="睛彩青少" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/睛彩青少.png" group-title="网络",睛彩青少
+http://192.168.8.1:8888/rtp/239.10.0.130:5140
+#EXTINF:-1 tvg-id="求索纪录" tvg-name="求索纪录" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/求索纪录.png" group-title="纪实",求索纪录
+http://192.168.8.1:8888/rtp/239.10.0.221:5140
+#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" group-title="纪实",金鹰纪实
+http://192.168.8.1:8888/rtp/239.10.0.193:5140
+#EXTINF:-1 tvg-id="达州新闻综合" tvg-name="达州新闻综合" group-title="达州",达州新闻综合
 http://192.168.8.1:8888/rtp/239.10.0.54:5140
 #EXTINF:-1 tvg-id="达州文化生活" tvg-name="达州文化生活" group-title="达州",达州文化生活
 http://192.168.8.1:8888/rtp/239.10.0.55:5140
@@ -235,7 +255,7 @@ http://192.168.8.1:8888/rtp/239.10.0.50:5140
 http://192.168.8.1:8888/rtp/239.10.0.51:5140
 #EXTINF:-1 tvg-id="巴中综合" tvg-name="巴中综合" group-title="巴中",巴中综合
 http://192.168.8.1:8888/rtp/239.10.0.52:5140
-#EXTINF:-1 tvg-id="巴中文旅" tvg-name="巴中文旅" group-title="巴中",巴中文旅
+#EXTINF:-1 tvg-id="巴中文旅生活" tvg-name="巴中文旅生活" group-title="巴中",巴中文旅生活
 http://192.168.8.1:8888/rtp/239.10.0.53:5140
 #EXTINF:-1 tvg-id="德阳新闻综合" tvg-name="德阳新闻综合" group-title="德阳",德阳新闻综合
 http://192.168.8.1:8888/rtp/239.10.0.56:5140
@@ -245,9 +265,9 @@ http://192.168.8.1:8888/rtp/239.10.0.57:5140
 http://192.168.8.1:8888/rtp/239.10.0.58:5140
 #EXTINF:-1 tvg-id="广安公共" tvg-name="广安公共" group-title="广安",广安公共
 http://192.168.8.1:8888/rtp/239.10.0.59:5140
-#EXTINF:-1 tvg-id="广元综合" tvg-name="广元综合" group-title="广元",广元综合
+#EXTINF:-1 tvg-id="广元新闻综合" tvg-name="广元新闻综合" group-title="广元",广元新闻综合
 http://192.168.8.1:8888/rtp/239.10.0.60:5140
-#EXTINF:-1 tvg-id="广元文化" tvg-name="广元文化" group-title="广元",广元文化
+#EXTINF:-1 tvg-id="广元文化生活" tvg-name="广元文化生活" group-title="广元",广元文化生活
 http://192.168.8.1:8888/rtp/239.10.0.61:5140
 #EXTINF:-1 tvg-id="乐山新闻" tvg-name="乐山新闻" group-title="乐山",乐山新闻
 http://192.168.8.1:8888/rtp/239.10.0.62:5140
@@ -259,7 +279,7 @@ http://192.168.8.1:8888/rtp/239.10.0.64:5140
 http://192.168.8.1:8888/rtp/239.10.0.65:5140
 #EXTINF:-1 tvg-id="眉山综合" tvg-name="眉山综合" group-title="眉山",眉山综合
 http://192.168.8.1:8888/rtp/239.10.0.66:5140
-#EXTINF:-1 tvg-id="眉山公共" tvg-name="眉山公共" group-title="眉山",眉山公共
+#EXTINF:-1 tvg-id="眉山文旅乡村" tvg-name="眉山文旅乡村" group-title="眉山",眉山文旅乡村
 http://192.168.8.1:8888/rtp/239.10.0.67:5140
 #EXTINF:-1 tvg-id="南充综合" tvg-name="南充综合" group-title="南充",南充综合
 http://192.168.8.1:8888/rtp/239.10.0.68:5140
@@ -301,3 +321,81 @@ http://192.168.8.1:8888/rtp/239.10.0.30:5140
 http://192.168.8.1:8888/rtp/239.10.0.32:5140
 #EXTINF:-1 tvg-id="稻城电视台" tvg-name="稻城电视台" group-title="甘孜",稻城电视台
 http://192.168.8.1:8888/rtp/239.10.0.29:5140
+#EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-1
+http://192.168.8.1:8888/rtp/239.10.0.121:5140
+#EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-2
+http://192.168.8.1:8888/rtp/239.10.0.122:5140
+#EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-3
+http://192.168.8.1:8888/rtp/239.10.0.123:5140
+#EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-4
+http://192.168.8.1:8888/rtp/239.10.0.124:5140
+#EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-5
+http://192.168.8.1:8888/rtp/239.10.0.125:5140
+#EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-6
+http://192.168.8.1:8888/rtp/239.10.0.126:5140
+#EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-7
+http://192.168.8.1:8888/rtp/239.10.0.127:5140
+#EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-8
+http://192.168.8.1:8888/rtp/239.10.0.132:5140
+#EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-9
+http://192.168.8.1:8888/rtp/239.10.0.133:5140
+#EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-10
+http://192.168.8.1:8888/rtp/239.10.0.153:5140
+#EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-11
+http://192.168.8.1:8888/rtp/239.10.0.156:5140
+#EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-12
+http://192.168.8.1:8888/rtp/239.10.0.163:5140
+#EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-13
+http://192.168.8.1:8888/rtp/239.10.0.164:5140
+#EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-14
+http://192.168.8.1:8888/rtp/239.11.0.120:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-1
+http://192.168.8.1:8888/rtp/239.10.0.024:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-2
+http://192.168.8.1:8888/rtp/239.10.0.025:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-3
+http://192.168.8.1:8888/rtp/239.10.0.026:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-4
+http://192.168.8.1:8888/rtp/239.10.0.027:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-5
+http://192.168.8.1:8888/rtp/239.10.0.028:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-6
+http://192.168.8.1:8888/rtp/239.10.0.041:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-7
+http://192.168.8.1:8888/rtp/239.10.0.045:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-8
+http://192.168.8.1:8888/rtp/239.10.0.234:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-9
+http://192.168.8.1:8888/rtp/239.10.0.235:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-10
+http://192.168.8.1:8888/rtp/239.10.0.237:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-11
+http://192.168.8.1:8888/rtp/239.10.0.238:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-12
+http://192.168.8.1:8888/rtp/239.10.0.232:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-13
+http://192.168.8.1:8888/rtp/239.10.0.233:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-14
+http://192.168.8.1:8888/rtp/239.10.0.236:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-15
+http://192.168.8.1:8888/rtp/239.10.0.042:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-16
+http://192.168.8.1:8888/rtp/239.10.0.021:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-17
+http://192.168.8.1:8888/rtp/239.10.0.022:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-18
+http://192.168.8.1:8888/rtp/239.10.0.040:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-19
+http://192.168.8.1:8888/rtp/239.10.0.043:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-20
+http://192.168.8.1:8888/rtp/239.10.0.044:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-21
+http://192.168.8.1:8888/rtp/239.10.0.239:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-22
+http://192.168.8.1:8888/rtp/239.10.0.017:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-23
+http://192.168.8.1:8888/rtp/239.10.0.018:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-24
+http://192.168.8.1:8888/rtp/239.10.0.019:5140
+#EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-25
+http://192.168.8.1:8888/rtp/239.10.0.020:5140
