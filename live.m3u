@@ -45,6 +45,8 @@ http://192.168.8.1:8888/rtp/239.11.0.246:5140
 http://192.168.8.1:8888/rtp/239.11.0.248:5140
 #EXTINF:-1 tvg-id="中学生" tvg-name="中学生" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/中学生.png" group-title="教育",中学生
 http://192.168.8.1:8888/rtp/239.11.0.247:5140
+#EXTINF:-1 tvg-id="山东教育卫视" tvg-name="山东教育卫视" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/山东教育卫视.png" group-title="教育",山东教育卫视
+http://192.168.8.1:8888/rtp/239.11.0.140:5140
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN英语" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CGTN英语.png" group-title="国际",CGTN英语
 http://192.168.8.1:8888/rtp/239.11.0.245:5140
 #EXTINF:-1 tvg-id="CGTN西语" tvg-name="CGTN西语" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CGTN西语.png" group-title="国际",CGTN西语
@@ -115,8 +117,6 @@ http://192.168.8.1:8888/rtp/239.11.0.70:5140
 http://192.168.8.1:8888/rtp/239.11.0.71:5140
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/山东卫视.png" group-title="卫视",山东卫视
 http://192.168.8.1:8888/rtp/239.11.0.73:5140
-#EXTINF:-1 tvg-id="山东教育卫视" tvg-name="山东教育卫视" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/山东教育卫视.png" group-title="卫视",山东教育卫视
-http://192.168.8.1:8888/rtp/239.11.0.140:5140
 #EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/湖北卫视.png" group-title="卫视",湖北卫视
 http://192.168.8.1:8888/rtp/239.11.0.74:5140
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/江苏卫视.png" group-title="卫视",江苏卫视
@@ -233,9 +233,9 @@ http://192.168.8.1:8888/rtp/239.10.0.33:5140
 http://192.168.8.1:8888/rtp/239.10.0.131:5140
 #EXTINF:-1 tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/睛彩竞技.png" group-title="网络",睛彩竞技
 http://192.168.8.1:8888/rtp/239.10.0.224:5140
-#EXTINF:-1 tvg-id="睛彩竞技" tvg-name="睛彩篮球" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/睛彩篮球.png" group-title="网络",睛彩篮球
+#EXTINF:-1 tvg-id="睛彩篮球" tvg-name="睛彩篮球" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/睛彩篮球.png" group-title="网络",睛彩篮球
 http://192.168.8.1:8888/rtp/239.11.0.122:5140
-#EXTINF:-1 tvg-id="睛彩竞技" tvg-name="睛彩青少" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/睛彩青少.png" group-title="网络",睛彩青少
+#EXTINF:-1 tvg-id="睛彩青少" tvg-name="睛彩青少" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/睛彩青少.png" group-title="网络",睛彩青少
 http://192.168.8.1:8888/rtp/239.10.0.130:5140
 #EXTINF:-1 tvg-id="求索纪录" tvg-name="求索纪录" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/求索纪录.png" group-title="纪实",求索纪录
 http://192.168.8.1:8888/rtp/239.10.0.221:5140
