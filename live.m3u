@@ -63,7 +63,7 @@ http://192.168.8.1:8888/rtp/239.11.0.62:5140
 http://192.168.8.1:8888/rtp/239.11.0.61:5140
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16-4K" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV16.png" group-title="央视4K",CCTV16-4K
 http://192.168.8.1:8888/rtp/239.10.0.187:5140
-#EXTINF:-1 tvg-id="CCTV8K" tvg-name="CCTV8K" group-title="央视4K",CCTV8K
+#EXTINF:-1 tvg-id="CCTV8K" tvg-name="CCTV8K" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV8K.webp" group-title="央视4K",CCTV8K
 http://192.168.8.1:8888/rtp/239.10.0.134:5140
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视4K" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/北京卫视4K.png" group-title="卫视4K",北京卫视4K
 http://192.168.8.1:8888/rtp/239.10.0.91:5140
@@ -171,19 +171,19 @@ http://192.168.8.1:8888/rtp/239.10.0.87:5140
 http://192.168.8.1:8888/rtp/239.10.0.88:5140
 #EXTINF:-1 tvg-id="1359" tvg-name="峨眉电影" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/峨眉电影.png" group-title="电影",峨眉电影
 http://192.168.8.1:8888/rtp/239.11.0.11:5140
-#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" group-title="少儿",金鹰卡通
+#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/金鹰卡通.png" group-title="少儿",金鹰卡通
 http://192.168.8.1:8888/rtp/239.11.0.127:5140
-#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" group-title="少儿",卡酷少儿
+#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/卡酷少儿.png" group-title="少儿",卡酷少儿
 http://192.168.8.1:8888/rtp/239.11.0.129:5140
-#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="嘉佳卡通" group-title="少儿",嘉佳卡通
+#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/嘉佳卡通.png" group-title="少儿",嘉佳卡通
 http://192.168.8.1:8888/rtp/239.11.0.203:5140
-#EXTINF:-1 tvg-id="优漫卡通" tvg-name="优漫卡通" group-title="少儿",优漫卡通
+#EXTINF:-1 tvg-id="优漫卡通" tvg-name="优漫卡通" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/优漫卡通.png" group-title="少儿",优漫卡通
 http://192.168.8.1:8888/rtp/239.11.0.63:5140
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" group-title="少儿",哈哈炫动
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/哈哈炫动.png" group-title="少儿",哈哈炫动
 http://192.168.8.1:8888/rtp/239.11.0.64:5140
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" group-title="港台",凤凰中文
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/凤凰中文.png" group-title="港台",凤凰中文
 http://192.168.8.1:8888/rtp/239.11.0.153:5140
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" group-title="港台",凤凰资讯
+#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/凤凰资讯.png" group-title="港台",凤凰资讯
 http://192.168.8.1:8888/rtp/239.11.0.154:5140
 #EXTINF:-1 tvg-id="星空卫视" tvg-name="星空卫视" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/星空卫视.png" group-title="港台",星空卫视
 http://192.168.8.1:8888/rtp/239.11.0.156:5140
