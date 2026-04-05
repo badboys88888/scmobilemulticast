@@ -1,47 +1,47 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
-#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV" group-title="央视",CCTV1
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视",CCTV1
 http://192.168.8.1:8888/rtp/239.10.0.151:5140
-#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV" group-title="央视",CCTV1
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视",CCTV1
 http://192.168.8.1:8888/rtp/239.11.0.65:5140
-#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV" group-title="央视",CCTV2
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" group-title="央视",CCTV2
 http://192.168.8.1:8888/rtp/239.11.0.108:5140
-#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV" group-title="央视",CCTV3
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" group-title="央视",CCTV3
 http://192.168.8.1:8888/rtp/239.11.0.101:5140
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV" group-title="央视",CCTV4
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" group-title="央视",CCTV4
 http://192.168.8.1:8888/rtp/239.11.0.109:5140
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV" group-title="央视",CCTV5
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" group-title="央视",CCTV5
 http://192.168.8.1:8888/rtp/239.11.0.100:5140
 #EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" group-title="央视",CCTV5+
 http://192.168.8.1:8888/rtp/239.11.0.241:5140
-#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV" group-title="央视",CCTV6
+#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV6" group-title="央视",CCTV6
 http://192.168.8.1:8888/rtp/239.11.0.102:5140
-#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV" group-title="央视",CCTV7
+#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV7" group-title="央视",CCTV7
 http://192.168.8.1:8888/rtp/239.11.0.110:5140
-#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV" group-title="央视",CCTV8
+#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV8" group-title="央视",CCTV8
 http://192.168.8.1:8888/rtp/239.11.0.103:5140
-#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV" group-title="央视",CCTV9
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" group-title="央视",CCTV9
 http://192.168.8.1:8888/rtp/239.11.0.111:5140
-#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV" group-title="央视",CCTV10
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" group-title="央视",CCTV10
 http://192.168.8.1:8888/rtp/239.11.0.112:5140
-#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV" group-title="央视",CCTV11
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" group-title="央视",CCTV11
 http://192.168.8.1:8888/rtp/239.11.0.22:5140
-#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV" group-title="央视",CCTV12
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" group-title="央视",CCTV12
 http://192.168.8.1:8888/rtp/239.11.0.113:5140
-#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV" group-title="央视",CCTV13
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" group-title="央视",CCTV13
 http://192.168.8.1:8888/rtp/239.11.0.24:5140
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV" group-title="央视",CCTV14
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" group-title="央视",CCTV14
 http://192.168.8.1:8888/rtp/239.11.0.114:5140
-#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV" group-title="央视",CCTV15
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" group-title="央视",CCTV15
 http://192.168.8.1:8888/rtp/239.11.0.26:5140
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV" group-title="央视",CCTV16
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" group-title="央视",CCTV16
 http://192.168.8.1:8888/rtp/239.11.0.67:5140
-#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV" group-title="央视",CCTV17
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" group-title="央视",CCTV17
 http://192.168.8.1:8888/rtp/239.11.0.107:5140
-#EXTINF:-1 tvg-id="CETV1" tvg-name="CETV" group-title="教育",CETV1
+#EXTINF:-1 tvg-id="CETV1" tvg-name="CETV1" group-title="教育",CETV1
 http://192.168.8.1:8888/rtp/239.11.0.139:5140
-#EXTINF:-1 tvg-id="CETV2" tvg-name="CETV" group-title="教育",CETV2
+#EXTINF:-1 tvg-id="CETV2" tvg-name="CETV2" group-title="教育",CETV2
 http://192.168.8.1:8888/rtp/239.11.0.246:5140
-#EXTINF:-1 tvg-id="CETV4" tvg-name="CETV" group-title="教育",CETV4
+#EXTINF:-1 tvg-id="CETV4" tvg-name="CETV4" group-title="教育",CETV4
 http://192.168.8.1:8888/rtp/239.11.0.248:5140
 #EXTINF:-1 tvg-id="中学生" tvg-name="中学生" group-title="教育",中学生
 http://192.168.8.1:8888/rtp/239.11.0.247:5140
