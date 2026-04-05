@@ -1,41 +1,41 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
-#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视",CCTV1
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV1.png" group-title="央视",CCTV1
 http://192.168.8.1:8888/rtp/239.10.0.151:5140
-#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视",CCTV1
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV1.png" group-title="央视",CCTV1
 http://192.168.8.1:8888/rtp/239.11.0.65:5140
-#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" group-title="央视",CCTV2
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV2.png" group-title="央视",CCTV2
 http://192.168.8.1:8888/rtp/239.11.0.108:5140
-#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" group-title="央视",CCTV3
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV3.png" group-title="央视",CCTV3
 http://192.168.8.1:8888/rtp/239.11.0.101:5140
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" group-title="央视",CCTV4
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV4.png" group-title="央视",CCTV4
 http://192.168.8.1:8888/rtp/239.11.0.109:5140
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" group-title="央视",CCTV5
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV5.png" group-title="央视",CCTV5
 http://192.168.8.1:8888/rtp/239.11.0.100:5140
-#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" group-title="央视",CCTV5+
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV5+.png" group-title="央视",CCTV5+
 http://192.168.8.1:8888/rtp/239.11.0.241:5140
-#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV6" group-title="央视",CCTV6
+#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV6" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV6.png" group-title="央视",CCTV6
 http://192.168.8.1:8888/rtp/239.11.0.102:5140
-#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV7" group-title="央视",CCTV7
+#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV7" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV7.png" group-title="央视",CCTV7
 http://192.168.8.1:8888/rtp/239.11.0.110:5140
-#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV8" group-title="央视",CCTV8
+#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV8" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV8.png" group-title="央视",CCTV8
 http://192.168.8.1:8888/rtp/239.11.0.103:5140
-#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" group-title="央视",CCTV9
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV9.png" group-title="央视",CCTV9
 http://192.168.8.1:8888/rtp/239.11.0.111:5140
-#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" group-title="央视",CCTV10
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV10.png" group-title="央视",CCTV10
 http://192.168.8.1:8888/rtp/239.11.0.112:5140
-#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" group-title="央视",CCTV11
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV11.png" group-title="央视",CCTV11
 http://192.168.8.1:8888/rtp/239.11.0.22:5140
-#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" group-title="央视",CCTV12
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV12.png" group-title="央视",CCTV12
 http://192.168.8.1:8888/rtp/239.11.0.113:5140
-#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" group-title="央视",CCTV13
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV13.png" group-title="央视",CCTV13
 http://192.168.8.1:8888/rtp/239.11.0.24:5140
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" group-title="央视",CCTV14
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV14.png" group-title="央视",CCTV14
 http://192.168.8.1:8888/rtp/239.11.0.114:5140
-#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" group-title="央视",CCTV15
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV15.png" group-title="央视",CCTV15
 http://192.168.8.1:8888/rtp/239.11.0.26:5140
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" group-title="央视",CCTV16
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV16.png" group-title="央视",CCTV16
 http://192.168.8.1:8888/rtp/239.11.0.67:5140
-#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" group-title="央视",CCTV17
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV17.png" group-title="央视",CCTV17
 http://192.168.8.1:8888/rtp/239.11.0.107:5140
 #EXTINF:-1 tvg-id="CETV1" tvg-name="CETV1" group-title="教育",CETV1
 http://192.168.8.1:8888/rtp/239.11.0.139:5140
@@ -45,23 +45,23 @@ http://192.168.8.1:8888/rtp/239.11.0.246:5140
 http://192.168.8.1:8888/rtp/239.11.0.248:5140
 #EXTINF:-1 tvg-id="中学生" tvg-name="中学生" group-title="教育",中学生
 http://192.168.8.1:8888/rtp/239.11.0.247:5140
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN英语" group-title="国际",CGTN英语
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN英语" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CGTN英语.png" group-title="国际",CGTN英语
 http://192.168.8.1:8888/rtp/239.11.0.245:5140
-#EXTINF:-1 tvg-id="CGTN西语" tvg-name="CGTN西语" group-title="国际",CGTN西语
+#EXTINF:-1 tvg-id="CGTN西语" tvg-name="CGTN西语" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CGTN西语.png" group-title="国际",CGTN西语
 http://192.168.8.1:8888/rtp/239.11.0.79:5140
-#EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" group-title="国际",CGTN法语
+#EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CGTN法语.png" group-title="国际",CGTN法语
 http://192.168.8.1:8888/rtp/239.11.0.80:5140
-#EXTINF:-1 tvg-id="CGTN阿语" tvg-name="CGTN阿语" group-title="国际",CGTN阿语
+#EXTINF:-1 tvg-id="CGTN阿语" tvg-name="CGTN阿语" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CGTN阿语.png" group-title="国际",CGTN阿语
 http://192.168.8.1:8888/rtp/239.11.0.81:5140
-#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" group-title="国际",CGTN俄语
+#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CGTN俄语.png" group-title="国际",CGTN俄语
 http://192.168.8.1:8888/rtp/239.11.0.82:5140
-#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" group-title="国际",CGTN纪录
+#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CGTN纪录.png" group-title="国际",CGTN纪录
 http://192.168.8.1:8888/rtp/239.11.0.138:5140
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" group-title="央视4K",CCTV4K
 http://192.168.8.1:8888/rtp/239.11.0.62:5140
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" group-title="央视4K",CCTV4K
 http://192.168.8.1:8888/rtp/239.11.0.61:5140
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16-4K" group-title="央视4K",CCTV16-4K
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16-4K" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV16.png" group-title="央视4K",CCTV16-4K
 http://192.168.8.1:8888/rtp/239.10.0.187:5140
 #EXTINF:-1 tvg-id="CCTV8K" tvg-name="CCTV8K" group-title="央视4K",CCTV8K
 http://192.168.8.1:8888/rtp/239.10.0.134:5140
