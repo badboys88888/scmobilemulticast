@@ -239,7 +239,7 @@ http://192.168.8.1:8888/rtp/239.11.0.122:5140
 http://192.168.8.1:8888/rtp/239.10.0.130:5140
 #EXTINF:-1 tvg-id="求索纪录" tvg-name="求索纪录" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/求索纪录.png" group-title="纪实",求索纪录
 http://192.168.8.1:8888/rtp/239.10.0.221:5140
-#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" group-title="纪实",金鹰纪实
+#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/金鹰纪实.png" group-title="纪实",金鹰纪实
 http://192.168.8.1:8888/rtp/239.10.0.193:5140
 #EXTINF:-1 tvg-id="达州新闻综合" tvg-name="达州新闻综合" group-title="达州",达州新闻综合
 http://192.168.8.1:8888/rtp/239.10.0.54:5140
