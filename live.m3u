@@ -37,13 +37,13 @@ http://192.168.8.1:8888/rtp/239.11.0.26:5140
 http://192.168.8.1:8888/rtp/239.11.0.67:5140
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV17.png" group-title="央视",CCTV17
 http://192.168.8.1:8888/rtp/239.11.0.107:5140
-#EXTINF:-1 tvg-id="CETV1" tvg-name="CETV1" group-title="教育",CETV1
+#EXTINF:-1 tvg-id="CETV1" tvg-name="CETV1" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CETV1.png" group-title="教育",CETV1
 http://192.168.8.1:8888/rtp/239.11.0.139:5140
-#EXTINF:-1 tvg-id="CETV2" tvg-name="CETV2" group-title="教育",CETV2
+#EXTINF:-1 tvg-id="CETV2" tvg-name="CETV2" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CETV2.png" group-title="教育",CETV2
 http://192.168.8.1:8888/rtp/239.11.0.246:5140
-#EXTINF:-1 tvg-id="CETV4" tvg-name="CETV4" group-title="教育",CETV4
+#EXTINF:-1 tvg-id="CETV4" tvg-name="CETV4" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CETV4.png" group-title="教育",CETV4
 http://192.168.8.1:8888/rtp/239.11.0.248:5140
-#EXTINF:-1 tvg-id="中学生" tvg-name="中学生" group-title="教育",中学生
+#EXTINF:-1 tvg-id="中学生" tvg-name="中学生" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/中学生.png" group-title="教育",中学生
 http://192.168.8.1:8888/rtp/239.11.0.247:5140
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN英语" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CGTN英语.png" group-title="国际",CGTN英语
 http://192.168.8.1:8888/rtp/239.11.0.245:5140
@@ -57,9 +57,9 @@ http://192.168.8.1:8888/rtp/239.11.0.81:5140
 http://192.168.8.1:8888/rtp/239.11.0.82:5140
 #EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CGTN纪录.png" group-title="国际",CGTN纪录
 http://192.168.8.1:8888/rtp/239.11.0.138:5140
-#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" group-title="央视4K",CCTV4K
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV4K.png" group-title="央视4K",CCTV4K
 http://192.168.8.1:8888/rtp/239.11.0.62:5140
-#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" group-title="央视4K",CCTV4K
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV4K.png" group-title="央视4K",CCTV4K
 http://192.168.8.1:8888/rtp/239.11.0.61:5140
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16-4K" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/CCTV16.png" group-title="央视4K",CCTV16-4K
 http://192.168.8.1:8888/rtp/239.10.0.187:5140
@@ -87,9 +87,9 @@ http://192.168.8.1:8888/rtp/239.11.0.88:5140
 http://192.168.8.1:8888/rtp/239.11.0.87:5140
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视4K" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/山东卫视4K.png" group-title="卫视4K",山东卫视4K
 http://192.168.8.1:8888/rtp/239.11.0.91:5140
-#EXTINF:-1 tvg-id="爱上4K" tvg-name="爱上4K" group-title="卫视4K",爱上4K
+#EXTINF:-1 tvg-id="爱上4K" tvg-name="爱上4K" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/爱上4K.png" group-title="卫视4K",爱上4K
 http://192.168.8.1:8888/rtp/239.11.0.120:5140
-#EXTINF:-1 tvg-id="咪咕4K" tvg-name="咪咕4K" group-title="卫视4K",咪咕4K
+#EXTINF:-1 tvg-id="咪咕4K" tvg-name="咪咕4K" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕4K.png" group-title="卫视4K",咪咕4K
 http://192.168.8.1:8888/rtp/239.10.0.240:5140
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" group-title="卫视",北京卫视
 http://192.168.8.1:8888/rtp/239.11.0.121:5140
