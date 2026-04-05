@@ -18,10 +18,14 @@ try:
 except:
     icon_map = {}
 
-# ===================== 归一化（核心修复） ===================== #
+# ===================== 归一化（修复版） ===================== #
 def norm_name(name):
-    # 去掉 -1 -2 -HD -备用 -数字后缀
-    name = re.sub(r'[-_ ]?\d+$', '', name)
+    # 只去掉 -1 / -2 / _1 / _2
+    name = re.sub(r'[-_]\d+$', '', name)
+
+    # 去掉常见后缀
+    name = re.sub(r'(备用|HD|高清)$', '', name)
+
     return name.strip()
 
 # ===================== 解析 ===================== #
@@ -41,7 +45,7 @@ def convert_url(url):
 def get_logo(name, tvg_id):
     key = norm_name(name)
 
-    # 1️⃣ 精确匹配
+    # 1️⃣ 名称匹配
     if key in icon_map:
         return ICON_BASE_URL + icon_map[key]
 
@@ -49,7 +53,7 @@ def get_logo(name, tvg_id):
     if tvg_id and tvg_id in icon_map:
         return ICON_BASE_URL + icon_map[tvg_id]
 
-    # 3️⃣ 忽略大小写匹配
+    # 3️⃣ 忽略大小写
     for k in icon_map:
         if k.lower() == key.lower():
             return ICON_BASE_URL + icon_map[k]
@@ -63,7 +67,6 @@ with open(INPUT_FILE, "r", encoding="utf-8") as f:
 group = ""
 output = []
 
-# 🔥 标准EPG写法（建议保留）
 output.append('#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"')
 
 for line in lines:
@@ -72,12 +75,11 @@ for line in lines:
     if not line:
         continue
 
-    # ========= 分组 ========= #
+    # 分组
     if line.startswith("#genre#"):
         group = line.replace("#genre#", "").strip()
         continue
 
-    # ========= 频道 ========= #
     parsed = parse_line(line)
     if not parsed:
         continue
@@ -87,16 +89,14 @@ for line in lines:
 
     logo = get_logo(name, tvg_id)
 
-    # ========= 清洗名称 ========= #
     clean_name = norm_name(name)
 
-    # ========= EXTINF ========= #
     extinf = "#EXTINF:-1"
 
     if tvg_id:
         extinf += f' tvg-id="{tvg_id}"'
 
-    # 🔥 新增：tvg-name（标准关键）
+    # ✅ 修复：不会再变 CCTV
     extinf += f' tvg-name="{clean_name}"'
 
     if logo:
@@ -105,13 +105,12 @@ for line in lines:
     if group:
         extinf += f' group-title="{group}"'
 
-    # 显示名（保留原始，带-1 -2）
     extinf += f",{name}"
 
     output.append(extinf)
     output.append(url)
 
-# ===================== 写文件 ===================== #
+# 写文件
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output))
 
