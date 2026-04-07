@@ -305,7 +305,7 @@ http://192.168.8.1:8888/rtp/239.10.0.79:5140
 http://192.168.8.1:8888/rtp/239.10.0.80:5140
 #EXTINF:-1 tvg-id="宜宾公共" tvg-name="宜宾公共" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/宜宾公共.png" group-title="宜宾",宜宾公共
 http://192.168.8.1:8888/rtp/239.10.0.81:5140
-#EXTINF:-1 tvg-id="资阳新闻" tvg-name="资阳新闻" group-title="资阳",资阳新闻
+#EXTINF:-1 tvg-id="资阳新闻综合" tvg-name="资阳新闻综合" group-title="资阳",资阳新闻综合
 http://192.168.8.1:8888/rtp/239.10.0.82:5140
 #EXTINF:-1 tvg-id="自贡综合" tvg-name="自贡综合" group-title="自贡",自贡综合
 http://192.168.8.1:8888/rtp/239.10.0.83:5140
