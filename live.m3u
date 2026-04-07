@@ -343,11 +343,11 @@ http://192.168.8.1:8888/rtp/239.10.0.133:5140
 http://192.168.8.1:8888/rtp/239.10.0.153:5140
 #EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-11
 http://192.168.8.1:8888/rtp/239.10.0.156:5140
-#EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-12
+#EXTINF:-1 tvg-id="华数TV" tvg-name="华数-HD少儿动漫" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数-HD少儿动漫
 http://192.168.8.1:8888/rtp/239.10.0.163:5140
 #EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-13
 http://192.168.8.1:8888/rtp/239.10.0.164:5140
-#EXTINF:-1 tvg-id="华数TV" tvg-name="华数TV" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数TV-14
+#EXTINF:-1 tvg-id="华数TV" tvg-name="华数-HD欧美影院" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/华数4K.png" group-title="华数",华数-HD欧美影院
 http://192.168.8.1:8888/rtp/239.11.0.120:5140
 #EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://raw.githubusercontent.com/badboys88888/scmobilemulticast/main/icons/咪咕体育.png" group-title="咪咕体育",咪咕体育-1
 http://192.168.8.1:8888/rtp/239.10.0.024:5140
